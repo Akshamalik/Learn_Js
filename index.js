@@ -1,14 +1,32 @@
+//js--versions twwo es5(var) and es6(let and const)
+
 //Javascript fundamentals
 //word Vs keyword
-
+//var is function scoped and let breaces scoped
 //just=word i.e that have nothing defined in the interpretor
 
 //for=keyword i.e that have some meaning already defined in interpretor
 
 //var let and const
 //varible store the data whose value can be changed
-
-
+//cntrl+shift+J--open inspect in chrome
+function abcd()
+{
+  for(var i=1;i<5;i++)
+  {
+    console.log(i);
+  }
+  console.log(i); //i can be used here also
+}
+abcd();
+function abcd2()
+{
+  for(let i=1;i<5;i++)
+  {
+    console.log(i);
+  }
+  //console.log(i); it will give error as let is braces scoped
+}
 
 var mathsscore=35;
 var sciencescore=45;
@@ -22,7 +40,9 @@ console.log(message)
 
 
 //hoisting --variable and functions are hoisted which means their declaration is moved at the top of code
+//var only supports hoisting wheras const and let don't
 
+//the window object gives the feature to Js which are not in it eg-console,alert
 //default value is undefined
 //difference btw defined and not-defined
 //undefined--if existence of varible but value not
