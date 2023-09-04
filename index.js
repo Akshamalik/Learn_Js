@@ -1,6 +1,8 @@
 //js--versions twwo es5(var) and es6(let and const)
-
+//Datatypes--number,strings,oobject,boolean,undefined
+//promises--resolve and rejct
 //Javascript fundamentals
+//js is interpreter lang
 //word Vs keyword
 //var is function scoped and let breaces scoped
 //just=word i.e that have nothing defined in the interpretor

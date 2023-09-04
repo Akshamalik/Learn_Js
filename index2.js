@@ -1,5 +1,5 @@
 //object
-
+//web language is js and client side program server
 //1.blank object
 
 var a={};
